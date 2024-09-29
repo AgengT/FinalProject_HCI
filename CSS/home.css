@@ -1,0 +1,55 @@
+.banner img{
+    max-width: 100%;
+    height: auto;
+    /* display: flex; */
+    /* margin: auto; */
+}
+
+.description{
+    margin: 4em 6em 3em 6em;
+}
+
+.description h3{
+    font-weight: 400;
+    font-size: 84px;
+    padding-bottom: 0.5em;
+}
+
+.description p{
+    font-size: 36px;
+    text-align: justify;
+    font-weight: 350;
+    padding-bottom: 1.5em;
+}
+
+.brands h3{
+    font-weight: 500;
+    font-size: 84px;
+    padding-bottom: 0.5em;
+    text-align: center;
+    padding-top: 0.8em;
+    color: white;
+}
+
+.brands{
+    background-color: #A37E2C;
+    padding-bottom: 6em;
+}
+
+.brands img{
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 48px;
+}
+
+@media screen and (max-width: 800px){
+    .description h3{
+        font-size: 54px;
+    }
+}
+
+

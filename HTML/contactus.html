@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatcHGoodS</title>
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <script src="../JS/Contact.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="right">
+            <img src="../Asset/Logo2.png" alt="WatcHGoods" href="./home.html">
+        </div>
+        <div class="left">
+            <a href="./home.html" >Home</a>
+            <a href="./products.html">Products</a>
+            <a href="./locations.html">Locations</a>
+            <a href="#" class="active">Contact Us</a>
+            <a href="./aboutus.html">About Us</a>
+        </div>
+    </div>
+
+    <div class="contact-us">
+        <div class="title">
+            <h2>Contact Us</h2>
+        </div>
+
+        <div class="forms">
+            <form action="./contactus.html" class="isi">
+                <div class="form-isi">
+                    <label for="Name">Name</label>
+                    <input type="text" id="name">
+                    
+                </div>
+
+                <div class="form-isi">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                
+                <div class="form-isi">
+                    <label for="country">Country</label>
+                    <input type="text" id="country">
+                </div>
+
+                <div class="form-isi">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" class="message">
+                </div>
+
+                <div class="form-isi1">
+                    <input type="checkbox" id="checkbox" class="check">
+                    <label for="checkbox">Receieve a copy for this message</label>
+                </div>
+            </form>
+            
+        </div>
+
+        <div id="errorContainer"></div>
+
+        
+
+
+        <div class="ini-button">
+            <button type="submit" onclick="validateForm()">Submit</button>
+        </div>
+        
+    </div>
+
+    <div class="footer">
+
+        <div class="logo-1">
+            <img src="../Asset/Logo2.png" alt="">
+        </div>
+
+        <div class="text">
+            <h4>Copyright WatcHGoods 2023</h4>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    text-decoration: none;
+    font-family: 'Clash Display';
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #006039;
+    padding: 0 6em 0 6em;
+    /* width: 100%; */
+    height: 80px;
+    position: static;
+    /* margin-bottom: 2em; */
+}
+
+.navbar .left{
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+    /* justify-content: center; */
+    gap: 1.5em;
+}
+
+.navbar .left a{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 450;
+}
+
+.navbar .right img{
+    background-size: cover;
+    /* width: auto; */
+    height: 75%;
+}
+
+.navbar .right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left .active{
+    color: #FFB000;
+}
+
+.navbar .left a:hover{
+    transform: scale(1.2);
+    color: peru;
+}
+
+.footer{
+    /* margin-top: 2em; */
+    background-color: #006039;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2em 3em 0.2em 3em;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer h4{
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+
+.logo-1 img{
+    height: 10vh;
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+
+    .navbar{
+        padding: 0 2em 0 2em;
+    }
+
+    .navbar .left a{
+        font-size: 16px;
+    }
+}

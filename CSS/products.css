@@ -1,0 +1,196 @@
+.rolex{
+    margin-bottom: 1.5em;
+}
+
+.AP{
+    margin-bottom: 4em;
+}
+
+.chopard{
+    margin-bottom: 6em;
+}
+
+.card-container{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo img{
+    max-width: 50vh;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding-bottom: 3.5em;
+}
+
+.chopard .logo img{
+    padding-top: 6em;
+}
+
+.Hublot .logo img{
+    padding-top: 2em;
+}
+
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+    /* padding: 0 10vh 0 10vh; */
+}
+
+.product-card .text-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.product-card{
+    background-color: #006039;
+    width: 400px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
+}
+
+.product-card:hover{
+    transform: scale(1.08);
+}
+
+.product-card .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card .card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.8em;
+}
+
+.text-below{
+    padding-bottom: 2em;
+}
+
+.text-below h4{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text-below h2{
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.border{
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    /* align-items: center; */
+
+}
+
+.border img{
+    max-width: 90%;
+    height: auto;
+}
+
+@media screen and (max-width:1500px){
+    .product-card{
+        width: 300px;
+        height: 340px;
+        /* height: auto; */
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-between;
+        border-radius: 1em;
+    }
+
+    .card img{
+        max-width: 60%;
+        height: auto;
+    }
+
+    .card1 img{
+        max-width: 60%;
+        height: auto;
+    }
+
+    .text-below h4{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .text-below h2{
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-below{
+        padding-bottom: 0.5em;
+    }
+
+    .border img{
+        width: 130vh;
+        /* height: auto; */
+    }
+}
+
+@media screen and (max-width: 800px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card{
+        width: 400px;
+        height: 520px;
+        /* height: auto; */
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-between;
+    }
+
+    .card img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card1 img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-below h4{
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .text-below h2{
+        font-size: 34px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .text-below{
+        padding-bottom: 2em;
+    }
+
+    .logo img{
+        max-width: 30vh;
+    }
+}

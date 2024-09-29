@@ -1,0 +1,291 @@
+.title h2{
+    font-size: 84px;
+    font-weight: 500;
+    color: #006039;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.forms .isi{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us{
+    background-color: #DBA223;
+    padding: 2em 4em 2em 4em;
+    margin: 3em 4.5em 3em 4.5em;
+    border-radius: 48px;
+}
+
+.forms input{
+    width: 956px ;
+    height: 81px;
+}
+
+.form-isi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em 0 0.5em 0;
+    max-width: 100%;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    /* max-width: 100%; */
+    /* margin: auto; */
+    padding-top: 1em;
+}
+
+.forms label{
+    font-size: 48px;
+    font-weight: 500;
+    max-width: 100%;
+    color: #006039;
+    padding-right: 1em;
+}
+
+.form-isi .message{
+    height: 248px;
+}
+
+.form-isi input{
+    font-size: 20px;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.ini-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+.ini-button button{
+    width: 400px;
+    height: 60px;
+    border-radius: 90px;
+    background-color: #006039;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.form-isi1 input{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.form-isi1 label{
+    font-size: 24px;
+    color: white;
+}
+
+.form-isi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5em;
+    gap: 1em;
+    max-width: 79%;
+}
+
+.ini-button button:hover{
+    transform: scale(1.2);
+}
+
+#errorContainer{
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    font-size: 24px;
+    color: red;
+}
+
+@media screen and (max-width:1400px) {
+    .forms label{
+        font-size: 32px;
+        font-weight: 500;
+        color: #006039;
+        padding-right: 1em;
+    }
+
+    .form-isi input{
+        width: 846px;
+        height: 36px;
+    }
+
+    .form-isi .message{
+        height: 128px;
+    }
+
+    .form-isi1 input{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .form-isi1 label{
+        font-size: 18px;
+        color: white;
+    }
+    .form-isi1{
+        max-width: 68%;
+    }
+
+    .contact-us{
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .forms label{
+        font-size: 24px;
+        font-weight: 500;
+        color: #006039;
+        padding-right: 1em;
+    }
+
+    .title h2{
+        font-size: 60px;
+    }
+
+    .form-isi input{
+        width: 700px;
+        height: 36px;
+    }
+
+    .form-isi .message{
+        height: 128px;
+    }
+
+    .form-isi1 input{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .form-isi1 label{
+        font-size: 18px;
+        color: white;
+    }
+    .form-isi1{
+        max-width: 73%;
+    }
+
+    .contact-us{
+        max-width: 90%;
+        height: auto;
+    }
+
+    .ini-button button{
+        width: 300px;
+        height: 35px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .forms label{
+        font-size: 20px;
+        font-weight: 500;
+        color: #006039;
+        padding-right: 1em;
+    }
+
+    .title h2{
+        font-size: 60px;
+    }
+
+    .form-isi input{
+        width: 500px;
+        height: 30px;
+    }
+
+    .form-isi .message{
+        height: 128px;
+    }
+
+    .form-isi1 input{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .form-isi1 label{
+        font-size: 14px;
+        color: white;
+    }
+    .form-isi1{
+        max-width: 81%;
+    }
+
+    .contact-us{
+        max-width: 90%;
+        height: auto;
+    }
+
+    .ini-button button{
+        width: 300px;
+        height: 35px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .forms label{
+        font-size: 16px;
+        font-weight: 500;
+        color: #006039;
+        padding-right: 1em;
+    }
+
+    .title h2{
+        font-size: 60px;
+    }
+
+    .form-isi input{
+        width: 360px;
+        height: 24px;
+    }
+
+    .form-isi .message{
+        height: 128px;
+    }
+
+    .form-isi1 input{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .form-isi1 label{
+        font-size: 14px;
+        color: white;
+    }
+    .form-isi1{
+        max-width: 100%;
+    }
+
+    .contact-us{
+        max-width: 90%;
+        height: auto;
+    }
+
+    .ini-button button{
+        width: 300px;
+        height: 35px;
+        font-size: 24px;
+    }
+
+    .contact-us{
+        padding: 2em 4em 2em 4em;
+        margin: 1em 2em 1em 2em;
+    }
+}
